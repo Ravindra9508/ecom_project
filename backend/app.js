@@ -7,7 +7,7 @@ const cors = require("cors");
 const path = require("path");
 
 app.use(cors({
-  origin: "https://ecom-project-beta.vercel.app/",
+  origin: "*",
   credentials: true
 }));
 
